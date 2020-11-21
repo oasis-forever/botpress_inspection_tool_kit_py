@@ -1,0 +1,3 @@
+.DS_Store
+lib/__pycache__/
+lib/concerns/__pycache__/
