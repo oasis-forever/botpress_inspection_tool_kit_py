@@ -9,7 +9,7 @@ from converse_api import ConverseApi
 from api_caller import get_api_response
 from file_handler import csv_to_list_with_index
 
-class TestConverseApiTest(unittest.TestCase):
+class TestConverseApi(unittest.TestCase):
     def setUp(self):
         protocol          = "https"
         host              = "oasist-botpress-server.herokuapp.com"
