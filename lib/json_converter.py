@@ -5,13 +5,12 @@ from json_exporter import gen_learning_data_list
 from file_handler import write_json
 
 class JsonConverter:
-    def __init__(self, csv_path, json_path):
-        self.csv_path = csv_path
-        self.json_path = json_path
+    def __init__(self):
+        self.obj = None
 
-    def csv_to_dict(self):
-        self.obj = { "qnas": gen_learning_data_list(self.csv_path) }
+    def csv_to_dict(self, csv_path):
+        self.obj = { "qnas": gen_learning_data_list(csv_path) }
         return self.obj["qnas"]
 
-    def dict_to_json(self):
-        write_json(self.json_path, self.obj)
+    def dict_to_json(self, json_path):
+        write_json(json_path, self.obj)
