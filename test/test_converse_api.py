@@ -28,9 +28,6 @@ class TestConverseApi(unittest.TestCase):
         self.assertEqual(True, "suggestions" in json.loads(self.res.read()).keys())
 
     def test_export_csv(self):
-        self.assertEqual(True, "state" in json.loads(self.res.read()).keys())
-
-    def test_export_csv(self):
         matrix_chart  = "../csv/matrix_chart_{0:%Y%m%d}.csv".format(datetime.datetime.now())
         test_data     = "../csv/test_data.csv"
         self.converse_api.export_csv(matrix_chart, test_data)
