@@ -4,7 +4,12 @@
 * pyenv 1.2.21
 * Python 3.8.6
 
-## 2. Documents
+## 2. Blog Post
+
+* [Automation of Botpress Accuracy Inspection Vol.1 - CSV → JSON Converter -](https://oasist-blog-en.hatenablog.jp/entry/botpress_accuracy_inspection_vol1)
+* [Automation of Botpress Accuracy Inspection Vol.2 - Q&A Confidence Matric Chart](https://oasist-blog-en.hatenablog.jp/entry/botpress_accuracy_inspection_vol2)
+
+## 3. Documents
 
 1. [Preparation](https://github.com/oasis-forever/botpress_inspection_tool_kit_py/blob/master/docs/01_preparation.md)
     1. [JSON File for Import](https://github.com/oasis-forever/botpress_inspection_tool_kit_py/blob/master/docs/01_preparation.md#1-1-json-file-for-import)
